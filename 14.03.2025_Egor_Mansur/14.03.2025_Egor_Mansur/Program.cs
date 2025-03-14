@@ -35,24 +35,24 @@ namespace _14._03._2025_Egor_Mansur
                         case 5:
                             Class5.Execute();
                             break;
-                        //case 6:
-                        //    Class6.Execute();
-                        //    break;
-                        //case 7:
-                        //    Class7.Execute();
-                        //    break;
-                        //case 8:
-                        //    Class8.Execute();
-                        //    break;
-                        //case 9:
-                        //    Class9.Execute();
-                        //    break;
-                        //case 10:
-                        //    Class10.Execute();
-                        //    break;
-                        //default:
-                        //    Console.WriteLine("Некорректный номер задания.");
-                        //    break;
+                        case 6:
+                            class6.execute();
+                            break;
+                        case 7:
+                            class7.execute();
+                            break;
+                        case 8:
+                            class8.execute();
+                            break;
+                        case 9:
+                            class9.execute();
+                            break;
+                        case 10:
+                            class10.execute();
+                            break;
+                        default:
+                            console.writeline("некорректный номер задания.");
+                            break;
                     }
                 }
                 else
