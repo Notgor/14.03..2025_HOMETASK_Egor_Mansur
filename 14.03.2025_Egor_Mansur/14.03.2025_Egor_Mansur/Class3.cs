@@ -8,5 +8,9 @@ namespace _14._03._2025_Egor_Mansur
 {
     class Class3
     {
+        public static void Execute()
+        {
+
+        }
     }
 }
