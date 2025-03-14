@@ -10,6 +10,9 @@ namespace _14._03._2025_Egor_Mansur
     {
         public static void Execute()
         {
+<<<<<<< HEAD
+
+=======
             Method1();
             Method2();
         }
@@ -28,6 +31,7 @@ namespace _14._03._2025_Egor_Mansur
         static void Method3()
         {
             Console.WriteLine("Method3");
+>>>>>>> 360d17676c74304900c17cf180ffd10e0d63db22
         }
     }
 }
