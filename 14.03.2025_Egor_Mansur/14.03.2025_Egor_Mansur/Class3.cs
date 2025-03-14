@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace _14._03._2025_Egor_Mansur
 {
-    class Class3
+    public class Class3
     {
-    }
+        public static void Execute()
+        {
+            HelperMethod1();
+        }
+
+        static void HelperMethod1()
+        {
+            Console.WriteLine("Внутри HelperMethod1");
+            HelperMethod2();
+        }
+
+        static void HelperMethod2()
+        {
+            Console.WriteLine("Внутри HelperMethod2");
+        }
+    }   
 }
